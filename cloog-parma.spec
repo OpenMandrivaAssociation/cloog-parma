@@ -10,6 +10,7 @@ Group:		System/Libraries
 License:	GPLv2+
 Url:		http://www.cloog.org
 Source0:	ftp://gcc.gnu.org/pub/gcc/infrastructure/%{name}-%{version}.tar.gz
+Patch0:		cloog-parma-aarch64.patch
 
 BuildRequires:	texinfo
 BuildRequires:	gmp-devel
@@ -41,6 +42,7 @@ The header files and dynamic shared libraries of the Chunky Loop Generator.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure2_5x \
