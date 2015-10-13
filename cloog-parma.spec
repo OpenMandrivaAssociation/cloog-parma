@@ -12,7 +12,7 @@ Release:	14
 Group:		System/Libraries
 License:	GPLv2+
 Url:		http://www.cloog.org
-Source0:	ftp://gcc.gnu.org/pub/gcc/infrastructure/%{name}-%{version}.tar.gz
+Source0:	http://gcc.gnu.org/pub/gcc/infrastructure/%{name}-%{version}.tar.gz
 Patch0:		cloog-parma-aarch64.patch
 
 BuildRequires:	texinfo
