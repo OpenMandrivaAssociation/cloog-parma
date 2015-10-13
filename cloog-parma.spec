@@ -2,6 +2,9 @@
 %define	libname	%mklibname cloog-ppl %{major}
 %define	devname	%mklibname -d cloog-ppl
 
+%define _disable_lto 1
+%define _disable_rebuild_configure 1
+
 Summary:	The Chunky Loop Generator
 Name:		cloog-parma
 Version:	0.16.1
