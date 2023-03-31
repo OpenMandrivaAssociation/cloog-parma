@@ -8,7 +8,7 @@
 Summary:	The Chunky Loop Generator
 Name:		cloog-parma
 Version:	0.16.1
-Release:	15
+Release:	16
 Group:		System/Libraries
 License:	GPLv2+
 Url:		http://www.cloog.org
