@@ -11,7 +11,7 @@ Version:	0.16.1
 Release:	16
 Group:		System/Libraries
 License:	GPLv2+
-Url:		http://www.cloog.org
+Url:		https://www.cloog.org
 Source0:	http://gcc.gnu.org/pub/gcc/infrastructure/%{name}-%{version}.tar.gz
 Patch0:		cloog-parma-aarch64.patch
 
