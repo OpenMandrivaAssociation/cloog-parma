@@ -15,6 +15,11 @@ Url:		https://www.cloog.org
 Source0:	http://gcc.gnu.org/pub/gcc/infrastructure/%{name}-%{version}.tar.gz
 Patch0:		cloog-parma-aarch64.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	texinfo
 BuildRequires:	gmp-devel
 BuildRequires:	ppl-devel >= 0.11
